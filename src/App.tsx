@@ -3,6 +3,7 @@ import './App.css';
 import Nav from './components/Nav';
 import Hero from './sections/Hero';
 import Work from './sections/Work';
+import Education from './sections/Education';
 import Skills from './sections/Skills';
 import Resources from './sections/Resources';
 import DevSetup from './sections/DevSetup';
@@ -31,6 +32,7 @@ function App() {
       <Nav active={activeSection} />
       <main>
         <Hero />
+        <Education />
         <Work />
         <Skills />
         <Resources />

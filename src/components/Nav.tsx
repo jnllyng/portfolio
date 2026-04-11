@@ -6,7 +6,7 @@ interface NavProps {
   active: string;
 }
 
-const links = ['home', 'work', 'skills', 'resources', 'setup'];
+const links = ['home', 'education', 'work', 'skills', 'resources', 'setup'];
 
 export default function Nav({ active }: NavProps) {
   const [scrolled, setScrolled] = useState(false);

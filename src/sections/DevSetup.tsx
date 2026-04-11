@@ -10,8 +10,8 @@ const setupData: SetupItem[] = [
   {
     title: 'VS Code Setup',
     items: [
-      'Theme: One Dark Pro',
-      'Extensions: ESLint, Prettier, GitLens, Docker, Thunder Client',
+      'Theme: Default Dark+',
+      'Extensions: Python, Ruby, ESLint, Prettier, Docker',
       'Auto save: onFocusChange',
       'Format on save: enabled',
     ],
@@ -19,19 +19,17 @@ const setupData: SetupItem[] = [
   {
     title: 'Terminal Setup',
     items: [
-      'Shell: Zsh',
-      'Framework: Oh My Zsh',
-      'Theme: Powerlevel10k',
-      'Plugins: git, zsh-autosuggestions, zsh-syntax-highlighting',
+      'PowerShell for Windows',
+      'WSL (Windows Subsystem for Linux)',
+      'Ubuntu on WSL for development',
     ],
   },
   {
     title: 'Preferred Editor Font',
     items: [
-      'Font: Fira Code',
+      'Font: Default (Consolas)',
       'Font size: 14px',
-      'Line height: 1.6',
-      'Font ligatures: enabled',
+      'Line height: 1.5',
     ],
   },
 ];
