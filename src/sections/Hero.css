@@ -1,0 +1,64 @@
+.hero {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 80px;
+}
+
+.hero__tag {
+  font-size: 0.8rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 1.5rem;
+}
+
+.hero__name {
+  font-size: clamp(4rem, 12vw, 9rem);
+  font-weight: 800;
+  line-height: 0.95;
+  margin-bottom: 2rem;
+  color: var(--text);
+}
+
+.hero__bio {
+  max-width: 480px;
+  color: var(--text-muted);
+  font-size: 1rem;
+  line-height: 1.7;
+  margin-bottom: 2.5rem;
+}
+
+.hero__links {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.hero__icon {
+  color: var(--text-muted);
+  font-size: 1.4rem;
+  transition: color 0.2s ease;
+  text-decoration: none;
+}
+
+.hero__icon:hover {
+  color: var(--accent);
+}
+
+.hero__cta {
+  font-size: 0.85rem;
+  letter-spacing: 0.1em;
+  color: var(--bg);
+  background: var(--accent);
+  padding: 0.6rem 1.4rem;
+  border-radius: 2px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+}
+
+.hero__cta:hover {
+  opacity: 0.85;
+}
