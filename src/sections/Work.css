@@ -59,25 +59,8 @@
   margin-bottom: 1rem;
 }
 
-.work__tag {
-  font-size: 0.72rem;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: var(--accent);
-  border: 1px solid var(--accent);
-  padding: 0.2rem 0.6rem;
-  border-radius: 2px;
-}
-
-.work__link {
-  font-size: 0.85rem;
-  color: var(--text-muted);
-  text-decoration: none;
-  transition: color 0.2s ease;
-}
-
-.work__link:hover {
-  color: var(--accent);
+.work__btn {
+  max-width: 200px;
 }
 
 .work__item-right {
