@@ -4,6 +4,7 @@ import { SiTypescript, SiJavascript, SiMysql, SiPostgresql, SiHtml5, SiCss3 } fr
 import { Text } from '../components/Text/Text';
 import './Skills.css';
 
+const unusedVariable = 'error';
 const languages = [
   { icon: <SiJavascript />, name: 'JavaScript' },
   { icon: <SiTypescript />, name: 'TypeScript' },
