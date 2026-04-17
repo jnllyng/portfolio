@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { Button } from '../components/Button/Button';
+
 import './Hero.css';
 
 export default function Hero() {
